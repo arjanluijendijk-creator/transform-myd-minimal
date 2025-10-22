@@ -3537,17 +3537,6 @@ def run_transform_command(args, config):
             else:
                 reports_dir = transformed_validation_dir
 
-            # Calculate mapped coverage
-            total_mapped_fields = len(
-                [m for m in mapping_entries if m.get("source_header")]
-            )
-            total_target_fields = len(target_fields)
-            mapped_coverage = (
-                total_mapped_fields / total_target_fields
-                if total_target_fields > 0
-                else 0.0
-            )
-
             # Generate sample rows with errors
             sample_rows = []
             if len(final_data) > 0:
@@ -3589,7 +3578,6 @@ def run_transform_command(args, config):
                 "rows_in": rows_in,
                 "rows_out": rows_out,
                 "rows_rejected": rows_rejected,
-                "mapped_coverage": mapped_coverage,
                 "template_used": template_path
                 or f"data/06_template/S_{args.variant.upper()}#*.csv",
                 "ignored_targets": ignored_targets,

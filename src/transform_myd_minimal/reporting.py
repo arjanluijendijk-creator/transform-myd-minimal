@@ -992,8 +992,7 @@ def write_html_report(summary: Dict[str, Any], out_html: Path, title: str) -> No
                 return [
                     {{value: data.rows_in || 0, label: 'Rows In'}},
                     {{value: data.rows_out || 0, label: 'Rows Out'}},
-                    {{value: data.rows_rejected || 0, label: 'Rejected'}},
-                    {{value: ((data.mapped_coverage || 0) * 100).toFixed(1) + '%', label: 'Coverage'}}
+                    {{value: data.rows_rejected || 0, label: 'Rejected'}}
                 ];
             }}
             return [];
