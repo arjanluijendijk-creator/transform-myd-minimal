@@ -213,7 +213,6 @@ def test_write_html_report_f04_post():
         "rows_in": 100,
         "rows_out": 90,
         "rows_rejected": 10,
-        "mapped_coverage": 0.85,
         "template_used": "data/03_templates/S_BNKA#template.csv",
         "ignored_targets": [],
         "errors_by_rule": {"BUKRS.required": 5, "BANKS.max_length": 3},
