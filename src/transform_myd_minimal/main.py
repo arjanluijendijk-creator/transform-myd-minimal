@@ -915,6 +915,10 @@ def parse_csv_field_definitions(csv_path: Path) -> List[Dict]:
             # Create CSV reader and detect headers
             reader = csv.DictReader(f)
 
+            # Handle missing/empty fieldnames defensively
+            if not reader.fieldnames:
+                return source_fields
+
             # Expected headers (case-insensitive matching)
             expected_headers = {
                 "table name": "table_name",
@@ -944,6 +948,7 @@ def parse_csv_field_definitions(csv_path: Path) -> List[Dict]:
 
                 # Extract field information using header mapping
                 field_name = ""
+                data_type = ""
                 field_description = ""
                 field_length = None
                 is_key = False
@@ -956,16 +961,10 @@ def parse_csv_field_definitions(csv_path: Path) -> List[Dict]:
                     if mapped_key == "field_name":
                         field_name = str(value).strip()
                     elif mapped_key == "data_type":
-                        field_description = str(value).strip()
+                        data_type = str(value).strip()
                     elif mapped_key == "field_text":
-                        # Use field_text as additional description if available
-                        field_text = str(value).strip()
-                        if field_text and field_text != field_description:
-                            field_description = (
-                                f"{field_description} ({field_text})"
-                                if field_description
-                                else field_text
-                            )
+                        # Use field_text for field_description
+                        field_description = str(value).strip()
                     elif mapped_key == "length":
                         # Parse length, stripping leading zeros
                         length_str = str(value).strip()
@@ -986,7 +985,7 @@ def parse_csv_field_definitions(csv_path: Path) -> List[Dict]:
                     ),
                     "example": None,  # CSV format doesn't include examples
                     "field_count": field_count,
-                    "dtype": "string",  # Default to string, could be enhanced based on data_type
+                    "dtype": data_type if data_type else "string",  # Use data_type, fallback to string
                     "nullable": not is_key,  # Key fields are typically not nullable
                 }
 
