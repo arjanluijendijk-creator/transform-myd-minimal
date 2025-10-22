@@ -3088,8 +3088,15 @@ def run_transform_command(args, config):
                 reader = csv.reader(f)
                 template_headers = next(reader)
         else:
-            logger.warning(f"Template missing for pattern: {template_glob}")
-            warnings.append({"warning": "template_missing"})
+            # Template is required - exit with error
+            error_data = {
+                "error": "missing_template",
+                "object": args.object,
+                "variant": args.variant,
+                "expected_pattern": template_glob,
+            }
+            enhanced_logger.log_error(error_data)
+            sys.exit(6)
 
         # 2) Raw validation report
         logger.info("Generating raw validation report...")
