@@ -406,6 +406,10 @@ class EnhancedLogger:
         elif error_type == "missing_target_index":
             expected_path = error_event.get("expected_path", "unknown")
             return f"Target index file not found: {expected_path}"
+        elif error_type == "missing_template":
+            expected_pattern = error_event.get("expected_pattern", "unknown")
+            variant = error_event.get("variant", "unknown")
+            return f"Template file not found for variant '{variant}'. Expected file matching pattern: {expected_pattern}"
         elif error_type == "no_headers":
             return "No valid headers found in the input file"
         elif error_type == "structure_not_found":
