@@ -1,0 +1,594 @@
+metadata:
+  object: m130
+  variant: csks
+  target_file: data/02_target/m130_csks.xml
+  generated_at: '2025-10-22T14:57:00.557357'
+  structure: S_CSKS
+  description: 'Transformation rules for m130/csks'
+
+
+
+transformations:
+- target_field: KOKRS
+  target_field_description: 'Controlling Area'
+  transformation_type: direct
+  placeholder_value: ''
+  value_mappings:
+    # Example: map source values to target values
+    # - source_value: 'OLD_VALUE'
+    #   target_value: 'NEW_VALUE'
+
+- target_field: KOSTL
+  target_field_description: 'Cost Center'
+  transformation_type: direct
+  placeholder_value: ''
+  value_mappings:
+    # Example: map source values to target values
+    # - source_value: 'OLD_VALUE'
+    #   target_value: 'NEW_VALUE'
+
+- target_field: DATAB
+  target_field_description: 'Valid From'
+  transformation_type: direct
+  placeholder_value: ''
+  value_mappings:
+    # Example: map source values to target values
+    # - source_value: 'OLD_VALUE'
+    #   target_value: 'NEW_VALUE'
+
+- target_field: DATBI
+  target_field_description: 'Valid To'
+  transformation_type: direct
+  placeholder_value: ''
+  value_mappings:
+    # Example: map source values to target values
+    # - source_value: 'OLD_VALUE'
+    #   target_value: 'NEW_VALUE'
+
+- target_field: LANGU
+  target_field_description: 'Language in Which Texts Are Saved'
+  transformation_type: direct
+  placeholder_value: ''
+  value_mappings:
+    # Example: map source values to target values
+    # - source_value: 'OLD_VALUE'
+    #   target_value: 'NEW_VALUE'
+
+- target_field: KTEXT
+  target_field_description: 'Cost Center Name'
+  transformation_type: direct
+  placeholder_value: ''
+  value_mappings:
+    # Example: map source values to target values
+    # - source_value: 'OLD_VALUE'
+    #   target_value: 'NEW_VALUE'
+
+- target_field: LTEXT
+  target_field_description: 'Description'
+  transformation_type: direct
+  placeholder_value: ''
+  value_mappings:
+    # Example: map source values to target values
+    # - source_value: 'OLD_VALUE'
+    #   target_value: 'NEW_VALUE'
+
+- target_field: VERAK_USER
+  target_field_description: 'User Responsible'
+  transformation_type: direct
+  placeholder_value: ''
+  value_mappings:
+    # Example: map source values to target values
+    # - source_value: 'OLD_VALUE'
+    #   target_value: 'NEW_VALUE'
+
+- target_field: VERAK
+  target_field_description: 'Person Responsible'
+  transformation_type: direct
+  placeholder_value: ''
+  value_mappings:
+    # Example: map source values to target values
+    # - source_value: 'OLD_VALUE'
+    #   target_value: 'NEW_VALUE'
+
+- target_field: ABTEI
+  target_field_description: 'Department'
+  transformation_type: direct
+  placeholder_value: ''
+  value_mappings:
+    # Example: map source values to target values
+    # - source_value: 'OLD_VALUE'
+    #   target_value: 'NEW_VALUE'
+
+- target_field: KOSAR
+  target_field_description: 'Cost Center Category'
+  transformation_type: direct
+  placeholder_value: ''
+  value_mappings:
+    # Example: map source values to target values
+    # - source_value: 'OLD_VALUE'
+    #   target_value: 'NEW_VALUE'
+
+- target_field: KHINR
+  target_field_description: 'Hierarchy Area'
+  transformation_type: direct
+  placeholder_value: ''
+  value_mappings:
+    # Example: map source values to target values
+    # - source_value: 'OLD_VALUE'
+    #   target_value: 'NEW_VALUE'
+
+- target_field: BUKRS
+  target_field_description: 'Company Code'
+  transformation_type: direct
+  placeholder_value: ''
+  value_mappings:
+    # Example: map source values to target values
+    # - source_value: 'OLD_VALUE'
+    #   target_value: 'NEW_VALUE'
+
+- target_field: FKBER
+  target_field_description: 'Functional Area'
+  transformation_type: direct
+  placeholder_value: ''
+  value_mappings:
+    # Example: map source values to target values
+    # - source_value: 'OLD_VALUE'
+    #   target_value: 'NEW_VALUE'
+
+- target_field: GSBER
+  target_field_description: 'Business Area'
+  transformation_type: direct
+  placeholder_value: ''
+  value_mappings:
+    # Example: map source values to target values
+    # - source_value: 'OLD_VALUE'
+    #   target_value: 'NEW_VALUE'
+
+- target_field: WAERS
+  target_field_description: 'Currency'
+  transformation_type: direct
+  placeholder_value: ''
+  value_mappings:
+    # Example: map source values to target values
+    # - source_value: 'OLD_VALUE'
+    #   target_value: 'NEW_VALUE'
+
+- target_field: PRCTR
+  target_field_description: 'Profit Center'
+  transformation_type: direct
+  placeholder_value: ''
+  value_mappings:
+    # Example: map source values to target values
+    # - source_value: 'OLD_VALUE'
+    #   target_value: 'NEW_VALUE'
+
+- target_field: MGEFL
+  target_field_description: 'Record Quantity'
+  transformation_type: direct
+  placeholder_value: ''
+  value_mappings:
+    # Example: map source values to target values
+    # - source_value: 'OLD_VALUE'
+    #   target_value: 'NEW_VALUE'
+
+- target_field: BKZKP
+  target_field_description: 'Lock: Actual Primary Costs'
+  transformation_type: direct
+  placeholder_value: ''
+  value_mappings:
+    # Example: map source values to target values
+    # - source_value: 'OLD_VALUE'
+    #   target_value: 'NEW_VALUE'
+
+- target_field: PKZKP
+  target_field_description: 'Lock: Plan Primary Costs'
+  transformation_type: direct
+  placeholder_value: ''
+  value_mappings:
+    # Example: map source values to target values
+    # - source_value: 'OLD_VALUE'
+    #   target_value: 'NEW_VALUE'
+
+- target_field: BKZKS
+  target_field_description: 'Lock: Actual Secondary Costs'
+  transformation_type: direct
+  placeholder_value: ''
+  value_mappings:
+    # Example: map source values to target values
+    # - source_value: 'OLD_VALUE'
+    #   target_value: 'NEW_VALUE'
+
+- target_field: PKZKS
+  target_field_description: 'Lock: Plan Secondary Costs'
+  transformation_type: direct
+  placeholder_value: ''
+  value_mappings:
+    # Example: map source values to target values
+    # - source_value: 'OLD_VALUE'
+    #   target_value: 'NEW_VALUE'
+
+- target_field: BKZER
+  target_field_description: 'Lock: Actual Revenue Postings'
+  transformation_type: direct
+  placeholder_value: ''
+  value_mappings:
+    # Example: map source values to target values
+    # - source_value: 'OLD_VALUE'
+    #   target_value: 'NEW_VALUE'
+
+- target_field: PKZER
+  target_field_description: 'Lock: Planning Revenue Postings'
+  transformation_type: direct
+  placeholder_value: ''
+  value_mappings:
+    # Example: map source values to target values
+    # - source_value: 'OLD_VALUE'
+    #   target_value: 'NEW_VALUE'
+
+- target_field: BKZOB
+  target_field_description: 'Lock: Commitment Update'
+  transformation_type: direct
+  placeholder_value: ''
+  value_mappings:
+    # Example: map source values to target values
+    # - source_value: 'OLD_VALUE'
+    #   target_value: 'NEW_VALUE'
+
+- target_field: CPI_TEMPL
+  target_field_description: 'Activity-Independent Formula Planning'
+  transformation_type: direct
+  placeholder_value: ''
+  value_mappings:
+    # Example: map source values to target values
+    # - source_value: 'OLD_VALUE'
+    #   target_value: 'NEW_VALUE'
+
+- target_field: CPD_TEMPL
+  target_field_description: 'Activity-Dependent Formula Planning'
+  transformation_type: direct
+  placeholder_value: ''
+  value_mappings:
+    # Example: map source values to target values
+    # - source_value: 'OLD_VALUE'
+    #   target_value: 'NEW_VALUE'
+
+- target_field: SCI_TEMPL
+  target_field_description: 'Activity-Independent Allocation'
+  transformation_type: direct
+  placeholder_value: ''
+  value_mappings:
+    # Example: map source values to target values
+    # - source_value: 'OLD_VALUE'
+    #   target_value: 'NEW_VALUE'
+
+- target_field: SCD_TEMPL
+  target_field_description: 'Activity-Dependent Allocation'
+  transformation_type: direct
+  placeholder_value: ''
+  value_mappings:
+    # Example: map source values to target values
+    # - source_value: 'OLD_VALUE'
+    #   target_value: 'NEW_VALUE'
+
+- target_field: SKI_TEMPL
+  target_field_description: 'Independent Actual Stat. Key Figure'
+  transformation_type: direct
+  placeholder_value: ''
+  value_mappings:
+    # Example: map source values to target values
+    # - source_value: 'OLD_VALUE'
+    #   target_value: 'NEW_VALUE'
+
+- target_field: SKD_TEMPL
+  target_field_description: 'Dependent Actual Stat. Key Figure'
+  transformation_type: direct
+  placeholder_value: ''
+  value_mappings:
+    # Example: map source values to target values
+    # - source_value: 'OLD_VALUE'
+    #   target_value: 'NEW_VALUE'
+
+- target_field: KALSM
+  target_field_description: 'Costing Sheet'
+  transformation_type: direct
+  placeholder_value: ''
+  value_mappings:
+    # Example: map source values to target values
+    # - source_value: 'OLD_VALUE'
+    #   target_value: 'NEW_VALUE'
+
+- target_field: BUDGET_COST_CTR
+  target_field_description: 'Budget-Carrying Cost Center'
+  transformation_type: direct
+  placeholder_value: ''
+  value_mappings:
+    # Example: map source values to target values
+    # - source_value: 'OLD_VALUE'
+    #   target_value: 'NEW_VALUE'
+
+- target_field: AVC_PROFILE
+  target_field_description: 'Budget Availability Control Profile'
+  transformation_type: direct
+  placeholder_value: ''
+  value_mappings:
+    # Example: map source values to target values
+    # - source_value: 'OLD_VALUE'
+    #   target_value: 'NEW_VALUE'
+
+- target_field: AVC_ACTIVE
+  target_field_description: 'Budget Availability Control Is Active'
+  transformation_type: direct
+  placeholder_value: ''
+  value_mappings:
+    # Example: map source values to target values
+    # - source_value: 'OLD_VALUE'
+    #   target_value: 'NEW_VALUE'
+
+- target_field: ANRED
+  target_field_description: 'Title'
+  transformation_type: direct
+  placeholder_value: ''
+  value_mappings:
+    # Example: map source values to target values
+    # - source_value: 'OLD_VALUE'
+    #   target_value: 'NEW_VALUE'
+
+- target_field: NAME1
+  target_field_description: 'Name 1'
+  transformation_type: direct
+  placeholder_value: ''
+  value_mappings:
+    # Example: map source values to target values
+    # - source_value: 'OLD_VALUE'
+    #   target_value: 'NEW_VALUE'
+
+- target_field: NAME2
+  target_field_description: 'Name 2'
+  transformation_type: direct
+  placeholder_value: ''
+  value_mappings:
+    # Example: map source values to target values
+    # - source_value: 'OLD_VALUE'
+    #   target_value: 'NEW_VALUE'
+
+- target_field: NAME3
+  target_field_description: 'Name 3'
+  transformation_type: direct
+  placeholder_value: ''
+  value_mappings:
+    # Example: map source values to target values
+    # - source_value: 'OLD_VALUE'
+    #   target_value: 'NEW_VALUE'
+
+- target_field: NAME4
+  target_field_description: 'Name 4'
+  transformation_type: direct
+  placeholder_value: ''
+  value_mappings:
+    # Example: map source values to target values
+    # - source_value: 'OLD_VALUE'
+    #   target_value: 'NEW_VALUE'
+
+- target_field: STRAS
+  target_field_description: 'Street'
+  transformation_type: direct
+  placeholder_value: ''
+  value_mappings:
+    # Example: map source values to target values
+    # - source_value: 'OLD_VALUE'
+    #   target_value: 'NEW_VALUE'
+
+- target_field: PSTLZ
+  target_field_description: 'Postal Code'
+  transformation_type: direct
+  placeholder_value: ''
+  value_mappings:
+    # Example: map source values to target values
+    # - source_value: 'OLD_VALUE'
+    #   target_value: 'NEW_VALUE'
+
+- target_field: PSTL2
+  target_field_description: 'P.O. Box Postal Code'
+  transformation_type: direct
+  placeholder_value: ''
+  value_mappings:
+    # Example: map source values to target values
+    # - source_value: 'OLD_VALUE'
+    #   target_value: 'NEW_VALUE'
+
+- target_field: PFACH
+  target_field_description: 'PO Box'
+  transformation_type: direct
+  placeholder_value: ''
+  value_mappings:
+    # Example: map source values to target values
+    # - source_value: 'OLD_VALUE'
+    #   target_value: 'NEW_VALUE'
+
+- target_field: ORT01
+  target_field_description: 'City'
+  transformation_type: direct
+  placeholder_value: ''
+  value_mappings:
+    # Example: map source values to target values
+    # - source_value: 'OLD_VALUE'
+    #   target_value: 'NEW_VALUE'
+
+- target_field: ORT02
+  target_field_description: 'District'
+  transformation_type: direct
+  placeholder_value: ''
+  value_mappings:
+    # Example: map source values to target values
+    # - source_value: 'OLD_VALUE'
+    #   target_value: 'NEW_VALUE'
+
+- target_field: LAND1
+  target_field_description: 'Country/Region'
+  transformation_type: direct
+  placeholder_value: ''
+  value_mappings:
+    # Example: map source values to target values
+    # - source_value: 'OLD_VALUE'
+    #   target_value: 'NEW_VALUE'
+
+- target_field: REGIO
+  target_field_description: 'Region'
+  transformation_type: direct
+  placeholder_value: ''
+  value_mappings:
+    # Example: map source values to target values
+    # - source_value: 'OLD_VALUE'
+    #   target_value: 'NEW_VALUE'
+
+- target_field: TXJCD
+  target_field_description: 'Tax Jurisdiction'
+  transformation_type: direct
+  placeholder_value: ''
+  value_mappings:
+    # Example: map source values to target values
+    # - source_value: 'OLD_VALUE'
+    #   target_value: 'NEW_VALUE'
+
+- target_field: SPRAS
+  target_field_description: 'Communication Language'
+  transformation_type: direct
+  placeholder_value: ''
+  value_mappings:
+    # Example: map source values to target values
+    # - source_value: 'OLD_VALUE'
+    #   target_value: 'NEW_VALUE'
+
+- target_field: TELBX
+  target_field_description: 'Telebox Number'
+  transformation_type: direct
+  placeholder_value: ''
+  value_mappings:
+    # Example: map source values to target values
+    # - source_value: 'OLD_VALUE'
+    #   target_value: 'NEW_VALUE'
+
+- target_field: TELF1
+  target_field_description: 'Phone'
+  transformation_type: direct
+  placeholder_value: ''
+  value_mappings:
+    # Example: map source values to target values
+    # - source_value: 'OLD_VALUE'
+    #   target_value: 'NEW_VALUE'
+
+- target_field: TELF2
+  target_field_description: 'Second Telephone Number'
+  transformation_type: direct
+  placeholder_value: ''
+  value_mappings:
+    # Example: map source values to target values
+    # - source_value: 'OLD_VALUE'
+    #   target_value: 'NEW_VALUE'
+
+- target_field: TELFX
+  target_field_description: 'Fax Number'
+  transformation_type: direct
+  placeholder_value: ''
+  value_mappings:
+    # Example: map source values to target values
+    # - source_value: 'OLD_VALUE'
+    #   target_value: 'NEW_VALUE'
+
+- target_field: TELTX
+  target_field_description: 'Teletex Number'
+  transformation_type: direct
+  placeholder_value: ''
+  value_mappings:
+    # Example: map source values to target values
+    # - source_value: 'OLD_VALUE'
+    #   target_value: 'NEW_VALUE'
+
+- target_field: TELX1
+  target_field_description: 'Telex Number'
+  transformation_type: direct
+  placeholder_value: ''
+  value_mappings:
+    # Example: map source values to target values
+    # - source_value: 'OLD_VALUE'
+    #   target_value: 'NEW_VALUE'
+
+- target_field: DATLT
+  target_field_description: 'Data Line'
+  transformation_type: direct
+  placeholder_value: ''
+  value_mappings:
+    # Example: map source values to target values
+    # - source_value: 'OLD_VALUE'
+    #   target_value: 'NEW_VALUE'
+
+- target_field: DRNAM
+  target_field_description: 'Printer Destination'
+  transformation_type: direct
+  placeholder_value: ''
+  value_mappings:
+    # Example: map source values to target values
+    # - source_value: 'OLD_VALUE'
+    #   target_value: 'NEW_VALUE'
+
+- target_field: JV_VENTURE
+  target_field_description: 'Joint Venture'
+  transformation_type: direct
+  placeholder_value: ''
+  value_mappings:
+    # Example: map source values to target values
+    # - source_value: 'OLD_VALUE'
+    #   target_value: 'NEW_VALUE'
+
+- target_field: JV_REC_IND
+  target_field_description: 'Recovery Indicator'
+  transformation_type: direct
+  placeholder_value: ''
+  value_mappings:
+    # Example: map source values to target values
+    # - source_value: 'OLD_VALUE'
+    #   target_value: 'NEW_VALUE'
+
+- target_field: JV_EQUITY_TYP
+  target_field_description: 'Equity Type'
+  transformation_type: direct
+  placeholder_value: ''
+  value_mappings:
+    # Example: map source values to target values
+    # - source_value: 'OLD_VALUE'
+    #   target_value: 'NEW_VALUE'
+
+- target_field: JV_OTYPE
+  target_field_description: 'Joint Venture Object Type'
+  transformation_type: direct
+  placeholder_value: ''
+  value_mappings:
+    # Example: map source values to target values
+    # - source_value: 'OLD_VALUE'
+    #   target_value: 'NEW_VALUE'
+
+- target_field: JV_JIBCL
+  target_field_description: 'JIB/JIBE Class'
+  transformation_type: direct
+  placeholder_value: ''
+  value_mappings:
+    # Example: map source values to target values
+    # - source_value: 'OLD_VALUE'
+    #   target_value: 'NEW_VALUE'
+
+- target_field: JV_JIBSA
+  target_field_description: 'JIB/JIBE Subclass A'
+  transformation_type: direct
+  placeholder_value: ''
+  value_mappings:
+    # Example: map source values to target values
+    # - source_value: 'OLD_VALUE'
+    #   target_value: 'NEW_VALUE'
+
+
+# General transformation settings
+transformation_settings:
+  null_handling: 'use_placeholder'  # Options: 'use_placeholder', 'skip', 'error'
+  empty_string_handling: 'use_placeholder'  # Options: 'use_placeholder', 'skip', 'keep'
+  case_sensitive_mappings: false
+  trim_whitespace: true

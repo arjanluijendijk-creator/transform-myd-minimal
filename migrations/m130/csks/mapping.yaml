@@ -1,0 +1,727 @@
+metadata:
+  object: m130
+  variant: csks
+  generated_at: '2025-10-22T14:57:34.503031'
+  source_index: migrations/m130/csks/index_source.yaml
+  target_index: migrations/m130/csks/index_target.yaml
+  mapped_count: 61
+  unmapped_count: 3
+  to_audit: 2
+  unused_sources: 31
+  unused_targets: 0
+
+
+
+mappings:
+- map_confidence: 1.0
+  map_rationale: Exact field name match
+  map_status: auto
+  source_field_description: None
+  source_field_name: KOKRS
+  source_header: KOKRS
+  target_field_description: Controlling Area
+  target_field_name: KOKRS
+  target_table: csks
+
+- map_confidence: 1.0
+  map_rationale: Exact field name match
+  map_status: auto
+  source_field_description: None
+  source_field_name: KOSTL
+  source_header: KOSTL
+  target_field_description: Cost Center
+  target_field_name: KOSTL
+  target_table: csks
+
+- map_confidence: 1.0
+  map_rationale: Exact field name match
+  map_status: auto
+  source_field_description: None
+  source_field_name: DATAB
+  source_header: DATAB
+  target_field_description: Valid From
+  target_field_name: DATAB
+  target_table: csks
+
+- map_confidence: 1.0
+  map_rationale: Exact field name match
+  map_status: auto
+  source_field_description: None
+  source_field_name: DATBI
+  source_header: DATBI
+  target_field_description: Valid To
+  target_field_name: DATBI
+  target_table: csks
+
+- map_confidence: 0.0
+  map_rationale: Added without source match, to comply with SAP template
+  map_status: manual
+  source_field_description: Language
+  source_field_name: SPRAS0086
+  source_header: null
+  target_field_description: Language in Which Texts Are Saved
+  target_field_name: LANGU
+  target_table: csks
+
+- map_confidence: 1.0
+  map_rationale: Exact field name match
+  map_status: auto
+  source_field_description: None
+  source_field_name: KTEXT
+  source_header: KTEXT
+  target_field_description: Cost Center Name
+  target_field_name: KTEXT
+  target_table: csks
+
+- map_confidence: 1.0
+  map_rationale: Exact field name match
+  map_status: auto
+  source_field_description: None
+  source_field_name: LTEXT
+  source_header: LTEXT
+  target_field_description: Description
+  target_field_name: LTEXT
+  target_table: csks
+
+- map_confidence: 1.0
+  map_rationale: Fuzzy match with 100% confidence
+  map_status: auto
+  source_field_description: None
+  source_field_name: VERAK_USER
+  source_header: VERAK_USER
+  target_field_description: User Responsible
+  target_field_name: VERAK_USER
+  target_table: csks
+
+- map_confidence: 1.0
+  map_rationale: Exact field name match
+  map_status: auto
+  source_field_description: None
+  source_field_name: VERAK
+  source_header: VERAK
+  target_field_description: Person Responsible
+  target_field_name: VERAK
+  target_table: csks
+
+- map_confidence: 1.0
+  map_rationale: Exact field name match
+  map_status: auto
+  source_field_description: None
+  source_field_name: ABTEI
+  source_header: ABTEI
+  target_field_description: Department
+  target_field_name: ABTEI
+  target_table: csks
+
+- map_confidence: 1.0
+  map_rationale: Exact field name match
+  map_status: auto
+  source_field_description: None
+  source_field_name: KOSAR
+  source_header: KOSAR
+  target_field_description: Cost Center Category
+  target_field_name: KOSAR
+  target_table: csks
+
+- map_confidence: 1.0
+  map_rationale: Exact field name match
+  map_status: auto
+  source_field_description: None
+  source_field_name: KHINR
+  source_header: KHINR
+  target_field_description: Hierarchy Area
+  target_field_name: KHINR
+  target_table: csks
+
+- map_confidence: 1.0
+  map_rationale: Exact field name match
+  map_status: auto
+  source_field_description: None
+  source_field_name: BUKRS
+  source_header: BUKRS
+  target_field_description: Company Code
+  target_field_name: BUKRS
+  target_table: csks
+
+- map_confidence: 0.88
+  map_rationale: Fuzzy match with 88% confidence
+  map_status: auto
+  source_field_description: None
+  source_field_name: FUNC_AREA
+  source_header: FUNC_AREA
+  target_field_description: Functional Area
+  target_field_name: FKBER
+  target_table: csks
+
+- map_confidence: 1.0
+  map_rationale: Exact field name match
+  map_status: auto
+  source_field_description: None
+  source_field_name: GSBER
+  source_header: GSBER
+  target_field_description: Business Area
+  target_field_name: GSBER
+  target_table: csks
+
+- map_confidence: 1.0
+  map_rationale: Exact field name match
+  map_status: auto
+  source_field_description: None
+  source_field_name: WAERS
+  source_header: WAERS
+  target_field_description: Currency
+  target_field_name: WAERS
+  target_table: csks
+
+- map_confidence: 1.0
+  map_rationale: Exact field name match
+  map_status: auto
+  source_field_description: None
+  source_field_name: PRCTR
+  source_header: PRCTR
+  target_field_description: Profit Center
+  target_field_name: PRCTR
+  target_table: csks
+
+- map_confidence: 1.0
+  map_rationale: Exact field name match
+  map_status: auto
+  source_field_description: None
+  source_field_name: MGEFL
+  source_header: MGEFL
+  target_field_description: Record Quantity
+  target_field_name: MGEFL
+  target_table: csks
+
+- map_confidence: 1.0
+  map_rationale: Exact field name match
+  map_status: auto
+  source_field_description: None
+  source_field_name: BKZKP
+  source_header: BKZKP
+  target_field_description: 'Lock: Actual Primary Costs'
+  target_field_name: BKZKP
+  target_table: csks
+
+- map_confidence: 1.0
+  map_rationale: Exact field name match
+  map_status: auto
+  source_field_description: None
+  source_field_name: PKZKP
+  source_header: PKZKP
+  target_field_description: 'Lock: Plan Primary Costs'
+  target_field_name: PKZKP
+  target_table: csks
+
+- map_confidence: 1.0
+  map_rationale: Exact field name match
+  map_status: auto
+  source_field_description: None
+  source_field_name: BKZKS
+  source_header: BKZKS
+  target_field_description: 'Lock: Actual Secondary Costs'
+  target_field_name: BKZKS
+  target_table: csks
+
+- map_confidence: 1.0
+  map_rationale: Exact field name match
+  map_status: auto
+  source_field_description: None
+  source_field_name: PKZKS
+  source_header: PKZKS
+  target_field_description: 'Lock: Plan Secondary Costs'
+  target_field_name: PKZKS
+  target_table: csks
+
+- map_confidence: 1.0
+  map_rationale: Exact field name match
+  map_status: auto
+  source_field_description: None
+  source_field_name: BKZER
+  source_header: BKZER
+  target_field_description: 'Lock: Actual Revenue Postings'
+  target_field_name: BKZER
+  target_table: csks
+
+- map_confidence: 1.0
+  map_rationale: Exact field name match
+  map_status: auto
+  source_field_description: None
+  source_field_name: PKZER
+  source_header: PKZER
+  target_field_description: 'Lock: Planning Revenue Postings'
+  target_field_name: PKZER
+  target_table: csks
+
+- map_confidence: 1.0
+  map_rationale: Exact field name match
+  map_status: auto
+  source_field_description: None
+  source_field_name: BKZOB
+  source_header: BKZOB
+  target_field_description: 'Lock: Commitment Update'
+  target_field_name: BKZOB
+  target_table: csks
+
+- map_confidence: 1.0
+  map_rationale: Fuzzy match with 100% confidence
+  map_status: auto
+  source_field_description: None
+  source_field_name: CPI_TEMPL
+  source_header: CPI_TEMPL
+  target_field_description: Activity-Independent Formula Planning
+  target_field_name: CPI_TEMPL
+  target_table: csks
+
+- map_confidence: 1.0
+  map_rationale: Fuzzy match with 100% confidence
+  map_status: auto
+  source_field_description: None
+  source_field_name: CPD_TEMPL
+  source_header: CPD_TEMPL
+  target_field_description: Activity-Dependent Formula Planning
+  target_field_name: CPD_TEMPL
+  target_table: csks
+
+- map_confidence: 1.0
+  map_rationale: Fuzzy match with 100% confidence
+  map_status: auto
+  source_field_description: None
+  source_field_name: SCI_TEMPL
+  source_header: SCI_TEMPL
+  target_field_description: Activity-Independent Allocation
+  target_field_name: SCI_TEMPL
+  target_table: csks
+
+- map_confidence: 1.0
+  map_rationale: Fuzzy match with 100% confidence
+  map_status: auto
+  source_field_description: None
+  source_field_name: SCD_TEMPL
+  source_header: SCD_TEMPL
+  target_field_description: Activity-Dependent Allocation
+  target_field_name: SCD_TEMPL
+  target_table: csks
+
+- map_confidence: 1.0
+  map_rationale: Fuzzy match with 100% confidence
+  map_status: auto
+  source_field_description: None
+  source_field_name: SKI_TEMPL
+  source_header: SKI_TEMPL
+  target_field_description: Independent Actual Stat. Key Figure
+  target_field_name: SKI_TEMPL
+  target_table: csks
+
+- map_confidence: 1.0
+  map_rationale: Fuzzy match with 100% confidence
+  map_status: auto
+  source_field_description: None
+  source_field_name: SKD_TEMPL
+  source_header: SKD_TEMPL
+  target_field_description: Dependent Actual Stat. Key Figure
+  target_field_name: SKD_TEMPL
+  target_table: csks
+
+- map_confidence: 1.0
+  map_rationale: Exact field name match
+  map_status: auto
+  source_field_description: None
+  source_field_name: KALSM
+  source_header: KALSM
+  target_field_description: Costing Sheet
+  target_field_name: KALSM
+  target_table: csks
+
+- map_confidence: 0.97
+  map_rationale: Fuzzy match with 98% confidence
+  map_status: auto
+  source_field_description: None
+  source_field_name: BUDGET_CARRYING_COST_CTR
+  source_header: BUDGET_CARRYING_COST_CTR
+  target_field_description: Budget-Carrying Cost Center
+  target_field_name: BUDGET_COST_CTR
+  target_table: csks
+
+- map_confidence: 1.0
+  map_rationale: Fuzzy match with 100% confidence
+  map_status: auto
+  source_field_description: None
+  source_field_name: AVC_PROFILE
+  source_header: AVC_PROFILE
+  target_field_description: Budget Availability Control Profile
+  target_field_name: AVC_PROFILE
+  target_table: csks
+
+- map_confidence: 1.0
+  map_rationale: Fuzzy match with 100% confidence
+  map_status: auto
+  source_field_description: None
+  source_field_name: AVC_ACTIVE
+  source_header: AVC_ACTIVE
+  target_field_description: Budget Availability Control Is Active
+  target_field_name: AVC_ACTIVE
+  target_table: csks
+
+- map_confidence: 1.0
+  map_rationale: Exact field name match
+  map_status: auto
+  source_field_description: None
+  source_field_name: ANRED
+  source_header: ANRED
+  target_field_description: Title
+  target_field_name: ANRED
+  target_table: csks
+
+- map_confidence: 1.0
+  map_rationale: Exact field name match
+  map_status: auto
+  source_field_description: None
+  source_field_name: NAME1
+  source_header: NAME1
+  target_field_description: Name 1
+  target_field_name: NAME1
+  target_table: csks
+
+- map_confidence: 1.0
+  map_rationale: Exact field name match
+  map_status: auto
+  source_field_description: None
+  source_field_name: NAME2
+  source_header: NAME2
+  target_field_description: Name 2
+  target_field_name: NAME2
+  target_table: csks
+
+- map_confidence: 1.0
+  map_rationale: Exact field name match
+  map_status: auto
+  source_field_description: None
+  source_field_name: NAME3
+  source_header: NAME3
+  target_field_description: Name 3
+  target_field_name: NAME3
+  target_table: csks
+
+- map_confidence: 1.0
+  map_rationale: Exact field name match
+  map_status: auto
+  source_field_description: None
+  source_field_name: NAME4
+  source_header: NAME4
+  target_field_description: Name 4
+  target_field_name: NAME4
+  target_table: csks
+
+- map_confidence: 1.0
+  map_rationale: Exact field name match
+  map_status: auto
+  source_field_description: None
+  source_field_name: STRAS
+  source_header: STRAS
+  target_field_description: Street
+  target_field_name: STRAS
+  target_table: csks
+
+- map_confidence: 1.0
+  map_rationale: Exact field name match
+  map_status: auto
+  source_field_description: None
+  source_field_name: PSTLZ
+  source_header: PSTLZ
+  target_field_description: Postal Code
+  target_field_name: PSTLZ
+  target_table: csks
+
+- map_confidence: 1.0
+  map_rationale: Exact field name match
+  map_status: auto
+  source_field_description: None
+  source_field_name: PSTL2
+  source_header: PSTL2
+  target_field_description: P.O. Box Postal Code
+  target_field_name: PSTL2
+  target_table: csks
+
+- map_confidence: 1.0
+  map_rationale: Exact field name match
+  map_status: auto
+  source_field_description: None
+  source_field_name: PFACH
+  source_header: PFACH
+  target_field_description: PO Box
+  target_field_name: PFACH
+  target_table: csks
+
+- map_confidence: 1.0
+  map_rationale: Exact field name match
+  map_status: auto
+  source_field_description: None
+  source_field_name: ORT01
+  source_header: ORT01
+  target_field_description: City
+  target_field_name: ORT01
+  target_table: csks
+
+- map_confidence: 1.0
+  map_rationale: Exact field name match
+  map_status: auto
+  source_field_description: None
+  source_field_name: ORT02
+  source_header: ORT02
+  target_field_description: District
+  target_field_name: ORT02
+  target_table: csks
+
+- map_confidence: 1.0
+  map_rationale: Exact field name match
+  map_status: auto
+  source_field_description: None
+  source_field_name: LAND1
+  source_header: LAND1
+  target_field_description: Country/Region
+  target_field_name: LAND1
+  target_table: csks
+
+- map_confidence: 1.0
+  map_rationale: Exact field name match
+  map_status: auto
+  source_field_description: None
+  source_field_name: REGIO
+  source_header: REGIO
+  target_field_description: Region
+  target_field_name: REGIO
+  target_table: csks
+
+- map_confidence: 1.0
+  map_rationale: Exact field name match
+  map_status: auto
+  source_field_description: None
+  source_field_name: TXJCD
+  source_header: TXJCD
+  target_field_description: Tax Jurisdiction
+  target_field_name: TXJCD
+  target_table: csks
+
+- map_confidence: 1.0
+  map_rationale: Exact field name match
+  map_status: auto
+  source_field_description: None
+  source_field_name: SPRAS
+  source_header: SPRAS
+  target_field_description: Communication Language
+  target_field_name: SPRAS
+  target_table: csks
+
+- map_confidence: 1.0
+  map_rationale: Exact field name match
+  map_status: auto
+  source_field_description: None
+  source_field_name: TELBX
+  source_header: TELBX
+  target_field_description: Telebox Number
+  target_field_name: TELBX
+  target_table: csks
+
+- map_confidence: 1.0
+  map_rationale: Exact field name match
+  map_status: auto
+  source_field_description: None
+  source_field_name: TELF1
+  source_header: TELF1
+  target_field_description: Phone
+  target_field_name: TELF1
+  target_table: csks
+
+- map_confidence: 1.0
+  map_rationale: Exact field name match
+  map_status: auto
+  source_field_description: None
+  source_field_name: TELF2
+  source_header: TELF2
+  target_field_description: Second Telephone Number
+  target_field_name: TELF2
+  target_table: csks
+
+- map_confidence: 1.0
+  map_rationale: Exact field name match
+  map_status: auto
+  source_field_description: None
+  source_field_name: TELFX
+  source_header: TELFX
+  target_field_description: Fax Number
+  target_field_name: TELFX
+  target_table: csks
+
+- map_confidence: 1.0
+  map_rationale: Exact field name match
+  map_status: auto
+  source_field_description: None
+  source_field_name: TELTX
+  source_header: TELTX
+  target_field_description: Teletex Number
+  target_field_name: TELTX
+  target_table: csks
+
+- map_confidence: 1.0
+  map_rationale: Exact field name match
+  map_status: auto
+  source_field_description: None
+  source_field_name: TELX1
+  source_header: TELX1
+  target_field_description: Telex Number
+  target_field_name: TELX1
+  target_table: csks
+
+- map_confidence: 1.0
+  map_rationale: Exact field name match
+  map_status: auto
+  source_field_description: None
+  source_field_name: DATLT
+  source_header: DATLT
+  target_field_description: Data Line
+  target_field_name: DATLT
+  target_table: csks
+
+- map_confidence: 1.0
+  map_rationale: Exact field name match
+  map_status: auto
+  source_field_description: None
+  source_field_name: DRNAM
+  source_header: DRNAM
+  target_field_description: Printer Destination
+  target_field_name: DRNAM
+  target_table: csks
+
+- map_confidence: 0.0
+  map_rationale: Added without source match, to comply with SAP template
+  map_status: unmapped
+  source_field_description: none
+  source_field_name: field_name onbekend
+  source_header: null
+  target_field_description: Joint Venture
+  target_field_name: JV_VENTURE
+  target_table: csks
+
+- map_confidence: 0.88
+  map_rationale: Fuzzy match with 88% confidence
+  map_status: auto
+  source_field_description: None
+  source_field_name: RECID
+  source_header: RECID
+  target_field_description: Recovery Indicator
+  target_field_name: JV_REC_IND
+  target_table: csks
+
+- map_confidence: 0.0
+  map_rationale: Added without source match, to comply with SAP template
+  map_status: unmapped
+  source_field_description: none
+  source_field_name: field_name onbekend
+  source_header: null
+  target_field_description: Equity Type
+  target_field_name: JV_EQUITY_TYP
+  target_table: csks
+
+- map_confidence: 1.0
+  map_rationale: Fuzzy match with 100% confidence
+  map_status: auto
+  source_field_description: None
+  source_field_name: JV_OTYPE
+  source_header: JV_OTYPE
+  target_field_description: Joint Venture Object Type
+  target_field_name: JV_OTYPE
+  target_table: csks
+
+- map_confidence: 1.0
+  map_rationale: Fuzzy match with 100% confidence
+  map_status: auto
+  source_field_description: None
+  source_field_name: JV_JIBCL
+  source_header: JV_JIBCL
+  target_field_description: JIB/JIBE Class
+  target_field_name: JV_JIBCL
+  target_table: csks
+
+- map_confidence: 1.0
+  map_rationale: Fuzzy match with 100% confidence
+  map_status: auto
+  source_field_description: None
+  source_field_name: JV_JIBSA
+  source_header: JV_JIBSA
+  target_field_description: JIB/JIBE Subclass A
+  target_field_name: JV_JIBSA
+  target_table: csks
+
+
+
+to_audit:
+- target_table: csks
+  target_field_name: FKBER
+  source_header: FUNC_AREA
+  source_field_name: FUNC_AREA
+  confidence: 0.8767857142857143
+  reason: low_confidence_fuzzy
+- target_table: csks
+  target_field_name: JV_REC_IND
+  source_header: RECID
+  source_field_name: RECID
+  confidence: 0.875
+  reason: low_confidence_fuzzy
+
+
+
+unmapped_source_fields:
+- source_field_name: MANDT
+  source_field_description: Client (Mandant)
+  confidence: 1.0
+  rationale: Global skip field configured in central mapping memory
+  comment: 'Audit field: Client is not relevant for data mapping'
+  required: false
+  source_header: null
+  status: unmapped
+  target_field: null
+  target_table: null
+- WERKS
+- LOGSYSTEM
+- ERSDA
+- USNAM
+- VMETH
+- NKOST
+- KVEWE
+- KAPPL
+- KOSZSCHL
+- CCKEY
+- KOMPL
+- STAKZ
+- OBJNR
+- FUNKT
+- AFUNK
+- EEW_CSKS_PS_DUMMY
+- VNAME
+- ETYPE
+- FUND
+- GRANT_ID
+- FUND_FIX_ASSIGNED
+- GRANT_FIX_ASSIGNED
+- FUNC_AREA_FIX_ASSIGNED
+- FERC_IND
+- MANDT0085
+- SPRAS0086
+- KOKRS0087
+- KOSTL0088
+- DATBI0089
+- MCTXT
+
+
+
+unmapped_target_fields:
+- target_table: csks
+  target_field_name: LANGU
+  required: false
+- target_table: csks
+  target_field_name: JV_VENTURE
+  required: false
+- target_table: csks
+  target_field_name: JV_EQUITY_TYP
+  required: false
